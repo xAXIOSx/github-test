@@ -3,6 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
+  <img id="gitLogo" src="./assets/Octicons-mark-github.svg.png">
   <router-view/>
 </template>
 
@@ -23,7 +24,7 @@ nav {
     color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #d4194f;
     }
   }
 }
