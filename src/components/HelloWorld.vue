@@ -6,7 +6,7 @@
     export default {
         data(){
             return {
-                msg: "Example"
+                msg: "Home page example"
             }
         }
     }

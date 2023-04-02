@@ -3,7 +3,9 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
-  <img id="gitLogo" src="./assets/Octicons-mark-github.svg.png">
+  <a href="https://github.com/xAXIOSx" target="_blank">
+    <img id="gitLogo" src="./assets/Octicons-mark-github.svg.png">
+  </a>
   <router-view/>
 </template>
 
